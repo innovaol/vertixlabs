@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertix Labs — Mobile Software Studio</title>
+    <meta name="description" content="Vertix Labs is an independent mobile application studio engineering fast, purposeful, and privacy-focused digital tools for professionals.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            500: '#10b981',
+                            600: '#059669',
+                            DEFAULT: '#2563eb',
+                            dark: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .glow-effect {
+            background: radial-gradient(circle at 50% 0%, rgba(37, 99, 235, 0.12) 0%, transparent 70%);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- Top Navigation -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center font-bold text-white shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform duration-200">
+                    <span class="text-xl tracking-tighter">V</span>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
+                        Vertix Labs
+                        <span class="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">LLC</span>
+                    </span>
+                    <span class="text-[11px] text-slate-400 tracking-wide uppercase font-medium">Software Studio</span>
+                </div>
+            </a>
+
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#products" class="hover:text-white transition-colors">Products</a>
+                <a href="#about" class="hover:text-white transition-colors">About</a>
+                <a href="#company" class="hover:text-white transition-colors">Company</a>
+                <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+            </div>
+
+            <a href="mailto:contact@vertixlabs.dev" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-900 border border-slate-700/80 text-sm font-medium text-slate-200 hover:text-white hover:border-slate-600 hover:bg-slate-800 transition-all shadow-sm">
+                <i data-lucide="mail" class="w-4 h-4 text-blue-400"></i>
+                <span>Get in Touch</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-24 pb-20 overflow-hidden glow-effect border-b border-slate-900">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-xs font-medium text-blue-400 mb-8 animate-fade-in">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                <span>Independent Mobile & Cloud Software</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-[1.15] mb-6">
+                Engineering purposeful apps for the <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-indigo-300 to-emerald-400">modern mobile workflow.</span>
+            </h1>
+
+            <p class="text-lg sm:text-xl text-slate-400 font-normal leading-relaxed max-w-2xl mx-auto mb-10">
+                Vertix Labs is an independent technology studio dedicated to crafting high-performance, native-feel mobile applications that solve everyday business problems with speed, simplicity, and zero friction.
+            </p>
+
+            <div class="flex flex-wrap items-center justify-center gap-4">
+                <a href="#products" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-xl shadow-blue-600/25 transition-all">
+                    <span>Explore Products</span>
+                    <i data-lucide="arrow-down" class="w-4 h-4"></i>
+                </a>
+                <a href="#company" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-800 text-sm font-medium transition-all">
+                    <span>Corporate Registry</span>
+                    <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Core Philosophy / Value Props -->
+    <section class="py-20 border-b border-slate-900 bg-slate-950/50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mb-6 border border-blue-500/20">
+                        <i data-lucide="zap" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Native Performance</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        We build apps that launch in milliseconds. Zero unnecessary bloatware, minimal network overhead, and buttery 60fps animations on every device.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-6 border border-emerald-500/20">
+                        <i data-lucide="shield" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Privacy by Default</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Your commercial and personal data belongs strictly to you. Our applications operate with an offline-first architecture whenever possible and never sell user telemetry.
+                    </p>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-6 border border-indigo-500/20">
+                        <i data-lucide="layout-grid" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-2">Focused Utility</h3>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Each product is engineered to do one critical job better than anyone else. No endless feature clutter; just intuitive, reliable tools that get out of your way.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-24 border-b border-slate-900">
+        <div class="max-w-6xl mx-auto px-6">
+            
+            <div class="max-w-2xl mb-16">
+                <span class="text-xs font-bold font-mono uppercase tracking-widest text-blue-400">Featured Software</span>
+                <h2 class="text-3xl font-extrabold text-white mt-2 mb-4">Crafted for everyday productivity.</h2>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Explore our active software releases and products currently in development across the iOS and Android app ecosystems.
+                </p>
+            </div>
+
+            <!-- QuoteFast Showcase Card -->
+            <div class="relative rounded-3xl bg-gradient-to-b from-slate-900 to-slate-900/50 border border-slate-800 p-8 sm:p-12 overflow-hidden shadow-2xl">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                    
+                    <div class="lg:col-span-7 space-y-6">
+                        <div class="flex items-center gap-3">
+                            <span class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center text-white font-bold shadow-md shadow-blue-600/30">
+                                <i data-lucide="file-spreadsheet" class="w-5 h-5"></i>
+                            </span>
+                            <div>
+                                <h3 class="text-2xl font-bold text-white tracking-tight">QuoteFast</h3>
+                                <span class="text-xs font-mono text-emerald-400 flex items-center gap-1.5">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                                    In Active Development • Pre-Release
+                                </span>
+                            </div>
+                        </div>
+
+                        <p class="text-base text-slate-300 leading-relaxed">
+                            The fastest mobile estimate and quote generator engineered specifically for contractors, independent professionals, and field service entrepreneurs. Create, brand, and send vector-crisp PDF quotes to clients directly from your phone in under 60 seconds.
+                        </p>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-4 h-4 text-blue-400 mt-1 shrink-0"></i>
+                                <span class="text-sm text-slate-300">Instant PDF generation with Latin American & international formats</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-4 h-4 text-blue-400 mt-1 shrink-0"></i>
+                                <span class="text-sm text-slate-300">100% offline-first local SQLite sync & client database</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-4 h-4 text-blue-400 mt-1 shrink-0"></i>
+                                <span class="text-sm text-slate-300">Direct WhatsApp & email sharing with one-tap client dispatch</span>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="check-circle-2" class="w-4 h-4 text-blue-400 mt-1 shrink-0"></i>
+                                <span class="text-sm text-slate-300">Multi-currency & custom business tax breakdown</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-4 flex items-center gap-4">
+                            <span class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 text-xs font-medium text-slate-300 border border-slate-700">
+                                <i data-lucide="smartphone" class="w-4 h-4 text-slate-400"></i>
+                                iOS & Android
+                            </span>
+                            <span class="text-xs text-slate-500 font-mono">Coming soon to App Store & Google Play</span>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 flex justify-center">
+                        <div class="w-full max-w-sm rounded-2xl bg-slate-950 border border-slate-800/80 p-6 shadow-2xl relative">
+                            <div class="flex items-center justify-between pb-4 border-b border-slate-800 text-xs text-slate-400">
+                                <span class="font-mono">Quote Preview</span>
+                                <span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-bold">$1,250.00</span>
+                            </div>
+                            <div class="py-6 space-y-3">
+                                <div class="h-3 bg-slate-800 rounded-full w-3/4"></div>
+                                <div class="h-3 bg-slate-800/60 rounded-full w-1/2"></div>
+                                <div class="h-20 bg-slate-900 rounded-xl border border-slate-800/60 p-3 flex flex-col justify-between">
+                                    <div class="flex justify-between text-xs text-slate-400">
+                                        <span>Product Engineering</span>
+                                        <span>$900.00</span>
+                                    </div>
+                                    <div class="flex justify-between text-xs text-slate-400">
+                                        <span>Cloud Deployment</span>
+                                        <span>$350.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between pt-3 border-t border-slate-800 text-xs">
+                                <span class="text-slate-500">Status</span>
+                                <span class="text-blue-400 font-medium flex items-center gap-1">
+                                    <i data-lucide="send" class="w-3.5 h-3.5"></i> Ready to send
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Company Registry / About Section (Crucial for Mercury & App Stores) -->
+    <section id="company" class="py-24 border-b border-slate-900 bg-slate-950/40">
+        <div class="max-w-6xl mx-auto px-6">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-xs font-bold font-mono uppercase tracking-widest text-emerald-400">Entity & Compliance</span>
+                    <h2 class="text-3xl font-extrabold text-white tracking-tight">Registered US corporate entity.</h2>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Vertix Labs operates as a formalized, compliance-first business entity. We hold our primary commercial registration in the State of Wyoming, United States, under strict adherence to federal business statutes and international consumer software standards.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 flex items-start gap-4">
+                            <i data-lucide="building" class="w-5 h-5 text-blue-400 mt-1 shrink-0"></i>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">Legal Structure</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">Vertix Labs LLC (Limited Liability Company), State of Wyoming, USA.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 flex items-start gap-4">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-blue-400 mt-1 shrink-0"></i>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">Registered Address</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">30 N Gould St, Ste N, Sheridan, WY 82801, United States</p>
+                            </div>
+                        </div>
+
+                        <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800 flex items-start gap-4">
+                            <i data-lucide="layers" class="w-5 h-5 text-blue-400 mt-1 shrink-0"></i>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">Industry Classification</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">Software publishing, mobile application development, and digital technology services.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="p-8 rounded-3xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-6">
+                        <h3 class="text-xl font-bold text-white">Developer Ecosystem</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Our software products are delivered and maintained directly under our verified developer accounts across leading platform stores:
+                        </p>
+
+                        <div class="space-y-3">
+                            <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800/80 flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <i data-lucide="apple" class="w-5 h-5 text-slate-200"></i>
+                                    <div>
+                                        <div class="text-xs font-bold text-white">Apple Developer Program</div>
+                                        <div class="text-[11px] text-slate-400">Organization / Corporate Tier</div>
+                                    </div>
+                                </div>
+                                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">Active</span>
+                            </div>
+
+                            <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800/80 flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <i data-lucide="play" class="w-5 h-5 text-emerald-400"></i>
+                                    <div>
+                                        <div class="text-xs font-bold text-white">Google Play Console</div>
+                                        <div class="text-[11px] text-slate-400">Organization / Developer Account</div>
+                                    </div>
+                                </div>
+                                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">Active</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2 border-t border-slate-800/80 text-xs text-slate-400 leading-relaxed">
+                            For technical inquiries, security disclosures, or business partnership proposals, our management team can be reached via our verified corporate domain at <a href="mailto:contact@vertixlabs.dev" class="text-blue-400 hover:underline">contact@vertixlabs.dev</a>.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 border-b border-slate-900">
+        <div class="max-w-4xl mx-auto px-6 text-center space-y-6">
+            <span class="text-xs font-bold font-mono uppercase tracking-widest text-blue-400">Inquiries & Support</span>
+            <h2 class="text-3xl font-extrabold text-white">Let’s connect.</h2>
+            <p class="text-sm text-slate-400 max-w-xl mx-auto leading-relaxed">
+                Whether you need customer support for one of our apps, want to report a technical issue, or explore a commercial partnership, we’re here to help.
+            </p>
+
+            <div class="pt-4 flex flex-wrap justify-center gap-4">
+                <a href="mailto:contact@vertixlabs.dev" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm transition-all shadow-lg shadow-blue-600/20">
+                    <i data-lucide="mail" class="w-4 h-4"></i>
+                    <span>contact@vertixlabs.dev</span>
+                </a>
+                <a href="mailto:support@vertixlabs.dev" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-800 font-medium text-sm transition-all">
+                    <i data-lucide="life-buoy" class="w-4 h-4 text-emerald-400"></i>
+                    <span>support@vertixlabs.dev</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-slate-950 text-slate-500 text-xs">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div class="flex items-center gap-3">
+                <div class="w-6 h-6 rounded-md bg-blue-600 flex items-center justify-center text-white text-xs font-bold">
+                    V
+                </div>
+                <span>© 2026 Vertix Labs LLC. All rights reserved.</span>
+            </div>
+
+            <div class="flex items-center gap-6">
+                <a href="privacy.html" class="hover:text-slate-300 transition-colors">Privacy Policy</a>
+                <a href="terms.html" class="hover:text-slate-300 transition-colors">Terms of Service</a>
+                <a href="#company" class="hover:text-slate-300 transition-colors">Entity Details</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
