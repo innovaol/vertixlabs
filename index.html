@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vertix Labs — Mobile Software Studio</title>
     <meta name="description" content="Vertix Labs is an independent mobile application studio engineering fast, purposeful, and privacy-focused digital tools for professionals.">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,16 +48,27 @@
     <!-- Top Navigation -->
     <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/80">
         <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
-            <a href="#" class="flex items-center gap-3 group">
-                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center font-bold text-white shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform duration-200">
-                    <span class="text-xl tracking-tighter">V</span>
+            <a href="#" class="flex items-center gap-3.5 group">
+                <div class="w-10 h-10 rounded-xl bg-slate-900 border border-slate-800 flex items-center justify-center p-1.5 shadow-lg shadow-blue-500/10 group-hover:border-blue-500/40 group-hover:scale-105 transition-all duration-200">
+                    <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                        <defs>
+                            <linearGradient id="nav_wing" x1="20" y1="16" x2="50" y2="76" gradientUnits="userSpaceOnUse">
+                                <stop offset="0%" stop-color="#38BDF8"/>
+                                <stop offset="100%" stop-color="#2563EB"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M20 24 L38 16 L50 64 L34 74 L20 24 Z" fill="url(#nav_wing)"/>
+                        <path d="M80 24 L62 16 L50 64 L66 74 L80 24 Z" fill="url(#nav_wing)"/>
+                        <polygon points="50,68 36,77 50,88 64,77" fill="#10B981"/>
+                        <circle cx="50" cy="77" r="3" fill="#A7F3D0"/>
+                    </svg>
                 </div>
                 <div class="flex flex-col">
                     <span class="text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
                         Vertix Labs
-                        <span class="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">LLC</span>
+                        <span class="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-semibold">LLC</span>
                     </span>
-                    <span class="text-[11px] text-slate-400 tracking-wide uppercase font-medium">Software Studio</span>
+                    <span class="text-[10.5px] text-slate-400 tracking-wider uppercase font-mono font-medium">Mobile Software Studio</span>
                 </div>
             </a>
 
@@ -350,8 +361,12 @@
     <footer class="py-12 bg-slate-950 text-slate-500 text-xs">
         <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
             <div class="flex items-center gap-3">
-                <div class="w-6 h-6 rounded-md bg-blue-600 flex items-center justify-center text-white text-xs font-bold">
-                    V
+                <div class="w-7 h-7 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center p-1">
+                    <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                        <path d="M20 24 L38 16 L50 64 L34 74 L20 24 Z" fill="#38BDF8"/>
+                        <path d="M80 24 L62 16 L50 64 L66 74 L80 24 Z" fill="#2563EB"/>
+                        <polygon points="50,68 36,77 50,88 64,77" fill="#10B981"/>
+                    </svg>
                 </div>
                 <span>© 2026 Vertix Labs LLC. All rights reserved.</span>
             </div>

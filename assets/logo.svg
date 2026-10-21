@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+    <defs>
+        <linearGradient id="vl_lockup_wing" x1="20" y1="16" x2="50" y2="76" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#38BDF8"/>
+            <stop offset="100%" stop-color="#2563EB"/>
+        </linearGradient>
+    </defs>
+    <g transform="translate(4, 0)">
+        <!-- Icon -->
+        <path d="M20 24 L38 16 L50 64 L34 74 L20 24 Z" fill="url(#vl_lockup_wing)"/>
+        <path d="M80 24 L62 16 L50 64 L66 74 L80 24 Z" fill="url(#vl_lockup_wing)"/>
+        <polygon points="50,68 36,77 50,88 64,77" fill="#10B981"/>
+        <circle cx="50" cy="77" r="3" fill="#A7F3D0"/>
+    </g>
+    <!-- Wordmark -->
+    <g transform="translate(95, 20)">
+        <text x="0" y="24" fill="#FFFFFF" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="800" font-size="22" letter-spacing="-0.03em">VERTIX LABS</text>
+        <!-- LLC Badge -->
+        <rect x="156" y="8" width="34" height="18" rx="4" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+        <text x="173" y="21" fill="#34D399" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" text-anchor="middle" letter-spacing="0.05em">LLC</text>
+        <text x="1" y="42" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" letter-spacing="0.18em">MOBILE SOFTWARE STUDIO</text>
+    </g>
+</svg>
