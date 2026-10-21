@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuoteFast — Propuestas de Ícono de App & Identidad</title>
+    <title>QuoteFast — Exploración de Íconos: Modo Claro y Oscuro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -22,211 +22,263 @@
     </script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
-        .ios-grid {
-            background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-            background-size: 20px 20px;
+        .wallpaper-dark {
+            background: linear-gradient(180deg, #0f172a 0%, #020617 100%);
+        }
+        .wallpaper-light {
+            background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+        }
+        .wallpaper-vibrant {
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
         }
     </style>
 </head>
 <body class="bg-[#05070D] text-slate-100 font-sans antialiased py-12 px-6 selection:bg-blue-600 selection:text-white">
 
-    <div class="max-w-5xl mx-auto space-y-16">
+    <div class="max-w-6xl mx-auto space-y-16">
         
         <!-- Header -->
-        <div class="text-center space-y-4 pb-10 border-b border-slate-800">
-            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-xs font-mono text-blue-400">
-                <i data-lucide="smartphone" class="w-3.5 h-3.5 text-blue-400"></i>
-                App Store Identity • QuoteFast
+        <div class="text-center space-y-4 pb-8 border-b border-slate-800">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-xs font-mono text-emerald-400">
+                <i data-lucide="sun-medium" class="w-3.5 h-3.5"></i>
+                Estudio de Contraste: Modo Claro vs Modo Oscuro
             </div>
             <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-                Identidad Visual para <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-indigo-300 to-emerald-400">QuoteFast</span>
+                QuoteFast — Variaciones de la "Q" en Fondos Claros y Oscuros
             </h1>
             <p class="text-slate-400 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-                El ícono de una app móvil tiene un solo objetivo en el App Store y Google Play: <strong class="text-slate-200">atraer el ojo, comunicar el propósito en 0.2 segundos y verse ultra profesional</strong> en la pantalla del teléfono.
+                Partiendo de la dirección que te gustó (el monograma <strong>Q + Checkmark</strong>), creamos 3 nuevas variaciones estilísticas y las calibramos para que <strong class="text-slate-200">resalten con máxima fuerza tanto en ambientes claros como oscuros</strong>.
             </p>
         </div>
 
-        <!-- The 3 Curated Concepts Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- The 4 Variations Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-            <!-- CONCEPT 1: The Bolt Document (El Documento de Velocidad) -->
-            <div class="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 space-y-6 flex flex-col justify-between shadow-2xl hover:border-slate-700 transition-all">
-                <div class="space-y-6">
+            <!-- VARIATION 2A: The Original Approved Q -->
+            <div class="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 space-y-6 flex flex-col justify-between shadow-xl">
+                <div class="space-y-4">
                     <div class="flex items-center justify-between">
-                        <span class="text-xs font-mono font-bold text-amber-400 uppercase tracking-widest">Concepto 01</span>
-                        <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/20">The Bolt Sheet</span>
+                        <span class="text-xs font-mono font-bold text-slate-400 uppercase tracking-widest">Variación 2A</span>
+                        <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">Base Original</span>
                     </div>
 
-                    <!-- Icon Preview 1024 Squircle -->
-                    <div class="h-52 rounded-2xl bg-[#02050E] border border-slate-800/80 flex items-center justify-center p-6 relative group">
-                        <div class="w-28 h-28 rounded-[24px] bg-gradient-to-b from-slate-900 via-slate-950 to-blue-950/60 border border-slate-700/80 p-5 shadow-2xl shadow-blue-500/20 flex items-center justify-center relative overflow-hidden group-hover:scale-105 transition-transform duration-300">
-                            <!-- Subtle Glow -->
-                            <div class="absolute -top-10 -right-10 w-24 h-24 bg-blue-500/20 rounded-full blur-xl"></div>
-                            
-                            <svg class="w-16 h-16 drop-shadow-md" viewBox="0 0 100 100" fill="none">
-                                <defs>
-                                    <linearGradient id="c1_doc" x1="20" y1="15" x2="70" y2="85" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0%" stop-color="#38BDF8"/>
-                                        <stop offset="100%" stop-color="#1D4ED8"/>
-                                    </linearGradient>
-                                    <linearGradient id="c1_bolt" x1="40" y1="20" x2="65" y2="80" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0%" stop-color="#34D399"/>
-                                        <stop offset="100%" stop-color="#059669"/>
-                                    </linearGradient>
-                                </defs>
-                                <!-- Clean Folded Quote Sheet -->
-                                <rect x="22" y="16" width="56" height="68" rx="8" fill="url(#c1_doc)"/>
-                                <!-- Sheet Top Fold Accent -->
-                                <path d="M58 16 L78 36 H62 C60 36 58 34 58 32 V16 Z" fill="#0F172A" opacity="0.3"/>
-                                <!-- Document Text Lines -->
-                                <rect x="30" y="32" width="22" height="4" rx="2" fill="#FFFFFF" opacity="0.8"/>
-                                <rect x="30" y="42" width="40" height="4" rx="2" fill="#FFFFFF" opacity="0.5"/>
-                                <rect x="30" y="52" width="30" height="4" rx="2" fill="#FFFFFF" opacity="0.5"/>
-                                <!-- Speed Lightning Overlay -->
-                                <path d="M56 28 L42 54 H54 L44 76 L66 48 H52 L62 28 H56 Z" fill="url(#c1_bolt)" drop-shadow="0 2px 8px rgba(0,0,0,0.4)"/>
-                            </svg>
+                    <h3 class="text-lg font-bold text-white tracking-tight">The Balanced Q (Anillo Equilibrado)</h3>
+                    <p class="text-xs text-slate-400">Anillo circular simétrico en azul cobalto con un checkmark central verde esmeralda.</p>
+
+                    <!-- Dual Dark / Light Preview -->
+                    <div class="grid grid-cols-2 gap-4 pt-2">
+                        <!-- Dark Squircle -->
+                        <div class="h-36 rounded-2xl bg-[#02050E] border border-slate-800 flex flex-col items-center justify-center p-3 relative">
+                            <div class="w-16 h-16 rounded-[16px] bg-gradient-to-b from-[#0F172A] to-[#040814] border border-slate-700 p-2.5 shadow-lg flex items-center justify-center">
+                                <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                                    <circle cx="48" cy="46" r="28" stroke="#38BDF8" stroke-width="10"/>
+                                    <path d="M42 48 L52 58 L78 28" stroke="#10B981" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span class="text-[9.5px] font-mono text-slate-500 mt-2">Sobre Fondo Oscuro</span>
+                        </div>
+
+                        <!-- Light Squircle -->
+                        <div class="h-36 rounded-2xl bg-slate-200 border border-slate-300 flex flex-col items-center justify-center p-3 relative">
+                            <div class="w-16 h-16 rounded-[16px] bg-white border border-slate-300 p-2.5 shadow-md flex items-center justify-center">
+                                <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                                    <circle cx="48" cy="46" r="28" stroke="#1E40AF" stroke-width="10"/>
+                                    <path d="M42 48 L52 58 L78 28" stroke="#059669" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <span class="text-[9.5px] font-mono text-slate-600 mt-2 font-medium">Sobre Fondo Claro</span>
                         </div>
                     </div>
-
-                    <div class="space-y-2">
-                        <h3 class="text-base font-bold text-white tracking-tight">El Documento Relámpago</h3>
-                        <p class="text-xs text-slate-400 leading-relaxed">
-                            Combina de forma inequívoca el concepto de <strong>documento / presupuesto</strong> con el rayo de <strong>rapidez extrema</strong>. Cualquier usuario en la tienda entiende al instante: "esta app hace cotizaciones en segundos".
-                        </p>
-                    </div>
                 </div>
 
-                <div class="pt-4 border-t border-slate-800">
-                    <button onclick="selectIcon('Concepto 01: El Documento Relámpago')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 hover:text-white transition-all">
-                        Elegir Concepto 1
-                    </button>
-                </div>
+                <button onclick="pickAppIcon('2A - The Balanced Q')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 hover:text-white transition-all">
+                    Elegir Variación 2A
+                </button>
             </div>
 
-            <!-- CONCEPT 2: The Approved Q (RECOMENDADO) -->
-            <div class="rounded-3xl bg-slate-900/70 border-2 border-emerald-500/80 p-8 space-y-6 flex flex-col justify-between shadow-2xl relative">
+            <!-- VARIATION 2B: The Kinetic Speed Q (RECOMENDADO) -->
+            <div class="rounded-3xl bg-slate-900/70 border-2 border-emerald-500 p-8 space-y-6 flex flex-col justify-between shadow-2xl relative">
                 <div class="absolute -top-3.5 right-6 px-3 py-1 rounded-full bg-emerald-600 text-white text-[10px] font-bold tracking-wider uppercase shadow-lg shadow-emerald-500/40">
-                    ★ Elección Recomendada
+                    ★ Máxima Recomendación
                 </div>
 
-                <div class="space-y-6">
+                <div class="space-y-4">
                     <div class="flex items-center justify-between">
-                        <span class="text-xs font-mono font-bold text-emerald-400 uppercase tracking-widest">Concepto 02</span>
-                        <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">The Approved Q</span>
+                        <span class="text-xs font-mono font-bold text-emerald-400 uppercase tracking-widest">Variación 2B</span>
+                        <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">Kinetic Speed</span>
                     </div>
 
-                    <!-- Icon Preview 1024 Squircle -->
-                    <div class="h-52 rounded-2xl bg-[#02050E] border border-slate-800/80 flex items-center justify-center p-6 relative group">
-                        <div class="w-28 h-28 rounded-[24px] bg-gradient-to-b from-[#0F172A] via-[#0A0F1D] to-[#040814] border border-slate-700/80 p-5 shadow-2xl shadow-emerald-500/15 flex items-center justify-center relative overflow-hidden group-hover:scale-105 transition-transform duration-300">
-                            <!-- Subtle Ambient Backlight -->
-                            <div class="absolute inset-0 bg-radial from-blue-500/15 via-transparent to-transparent"></div>
-                            
-                            <svg class="w-18 h-18 drop-shadow-[0_4px_16px_rgba(16,185,129,0.35)]" viewBox="0 0 100 100" fill="none">
-                                <defs>
-                                    <linearGradient id="c2_ring" x1="20" y1="15" x2="80" y2="85" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0%" stop-color="#FFFFFF"/>
-                                        <stop offset="60%" stop-color="#38BDF8"/>
-                                        <stop offset="100%" stop-color="#2563EB"/>
-                                    </linearGradient>
-                                    <linearGradient id="c2_check" x1="40" y1="50" x2="85" y2="85" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0%" stop-color="#34D399"/>
-                                        <stop offset="100%" stop-color="#059669"/>
-                                    </linearGradient>
-                                </defs>
-                                <!-- The Precision 'Q' Ring -->
-                                <circle cx="48" cy="46" r="28" stroke="url(#c2_ring)" stroke-width="9.5" stroke-linecap="round"/>
-                                <!-- The 'Q' Tail transformed into a Golden Checkmark of approval -->
-                                <path d="M42 48 L52 58 L78 28" stroke="url(#c2_check)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                <!-- Dynamic Sparkle at the check tip -->
-                                <circle cx="78" cy="28" r="3.5" fill="#A7F3D0"/>
-                            </svg>
+                    <h3 class="text-lg font-bold text-white tracking-tight">The Kinetic Q (La Q de Alta Velocidad)</h3>
+                    <p class="text-xs text-slate-300">Anillo dinámico con bisel aerodinámico que dispara un check esmeralda afilado. Es el más tecnológico y veloz.</p>
+
+                    <!-- Dual Dark / Light Preview -->
+                    <div class="grid grid-cols-2 gap-4 pt-2">
+                        <!-- Dark Squircle -->
+                        <div class="h-36 rounded-2xl bg-[#02050E] border border-slate-800 flex flex-col items-center justify-center p-3 relative group">
+                            <div class="w-16 h-16 rounded-[16px] bg-gradient-to-b from-[#0F172A] to-[#040814] border border-slate-700 p-2.5 shadow-xl shadow-emerald-500/20 flex items-center justify-center transition-transform group-hover:scale-105">
+                                <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                                    <defs>
+                                        <linearGradient id="v2b_ring_d" x1="15" y1="15" x2="85" y2="85" gradientUnits="userSpaceOnUse">
+                                            <stop offset="0%" stop-color="#38BDF8"/>
+                                            <stop offset="100%" stop-color="#2563EB"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <!-- Dynamic open arc for Q -->
+                                    <path d="M72 32 A 30 30 0 1 0 54 78" stroke="url(#v2b_ring_d)" stroke-width="11" stroke-linecap="round"/>
+                                    <!-- Forward shooting check -->
+                                    <path d="M40 52 L54 66 L86 26" stroke="#10B981" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="86" cy="26" r="3.5" fill="#A7F3D0"/>
+                                </svg>
+                            </div>
+                            <span class="text-[9.5px] font-mono text-slate-400 mt-2">Sobre Fondo Oscuro</span>
+                        </div>
+
+                        <!-- Light Squircle -->
+                        <div class="h-36 rounded-2xl bg-slate-200 border border-slate-300 flex flex-col items-center justify-center p-3 relative group">
+                            <div class="w-16 h-16 rounded-[16px] bg-white border border-slate-300 p-2.5 shadow-md flex items-center justify-center transition-transform group-hover:scale-105">
+                                <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                                    <path d="M72 32 A 30 30 0 1 0 54 78" stroke="#1E40AF" stroke-width="11" stroke-linecap="round"/>
+                                    <path d="M40 52 L54 66 L86 26" stroke="#059669" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="86" cy="26" r="3.5" fill="#10B981"/>
+                                </svg>
+                            </div>
+                            <span class="text-[9.5px] font-mono text-slate-700 mt-2 font-bold">Sobre Fondo Claro (Alto Contraste)</span>
                         </div>
                     </div>
-
-                    <div class="space-y-2">
-                        <h3 class="text-base font-bold text-white tracking-tight">La "Q" del Trato Aprobado</h3>
-                        <p class="text-xs text-slate-300 leading-relaxed">
-                            Monograma de autor: una <strong>Q</strong> geométrica de precisión donde el trazo se convierte en un <strong>Check verde esmeralda (✓)</strong>. No solo comunica "cotizar", sino el resultado final que busca el profesional: <strong>cotización aceptada y venta cerrada</strong>.
-                        </p>
-                    </div>
                 </div>
 
-                <div class="pt-4 border-t border-slate-800">
-                    <button onclick="selectIcon('Concepto 02: La Q del Trato Aprobado')" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white shadow-lg shadow-emerald-600/30 transition-all flex items-center justify-center gap-1.5">
-                        <i data-lucide="check" class="w-4 h-4"></i>
-                        <span>Elegir Concepto 2 (Recomendado)</span>
-                    </button>
-                </div>
+                <button onclick="pickAppIcon('2B - The Kinetic Speed Q')" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white shadow-lg shadow-emerald-600/30 transition-all flex items-center justify-center gap-1.5">
+                    <i data-lucide="check" class="w-4 h-4"></i>
+                    <span>Elegir Variación 2B (Recomendada)</span>
+                </button>
             </div>
 
-            <!-- CONCEPT 3: The Precision Fintech Document (El Folio Hexagonal) -->
-            <div class="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 space-y-6 flex flex-col justify-between shadow-2xl hover:border-slate-700 transition-all">
-                <div class="space-y-6">
+            <!-- VARIATION 2C: The Folio Q (El Documento que Forma la Q) -->
+            <div class="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 space-y-6 flex flex-col justify-between shadow-xl">
+                <div class="space-y-4">
                     <div class="flex items-center justify-between">
-                        <span class="text-xs font-mono font-bold text-blue-400 uppercase tracking-widest">Concepto 03</span>
-                        <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-300 border border-blue-500/20">The Dual Ledger</span>
+                        <span class="text-xs font-mono font-bold text-blue-400 uppercase tracking-widest">Variación 2C</span>
+                        <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-300 border border-blue-500/20">The Folio Q</span>
                     </div>
 
-                    <!-- Icon Preview 1024 Squircle -->
-                    <div class="h-52 rounded-2xl bg-[#02050E] border border-slate-800/80 flex items-center justify-center p-6 relative group">
-                        <div class="w-28 h-28 rounded-[24px] bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-700/80 p-5 shadow-2xl shadow-blue-500/20 flex items-center justify-center relative overflow-hidden group-hover:scale-105 transition-transform duration-300">
-                            <svg class="w-16 h-16" viewBox="0 0 100 100" fill="none">
-                                <defs>
-                                    <linearGradient id="c3_back" x1="20" y1="20" x2="70" y2="80" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0%" stop-color="#1E293B"/>
-                                        <stop offset="100%" stop-color="#0F172A"/>
-                                    </linearGradient>
-                                    <linearGradient id="c3_front" x1="30" y1="20" x2="80" y2="80" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0%" stop-color="#38BDF8"/>
-                                        <stop offset="100%" stop-color="#2563EB"/>
-                                    </linearGradient>
-                                </defs>
-                                <!-- Back Sheet (History/Invoices) -->
-                                <rect x="20" y="20" width="50" height="60" rx="8" fill="url(#c3_back)" stroke="#334155" stroke-width="2"/>
-                                <!-- Front Sheet (Current Quote) with offset -->
-                                <rect x="30" y="24" width="50" height="60" rx="8" fill="url(#c3_front)"/>
-                                <!-- Precision Data Slits -->
-                                <rect x="38" y="36" width="20" height="3.5" rx="1.75" fill="#FFFFFF"/>
-                                <rect x="38" y="44" width="34" height="3.5" rx="1.75" fill="#FFFFFF" opacity="0.6"/>
-                                <rect x="38" y="52" width="26" height="3.5" rx="1.75" fill="#FFFFFF" opacity="0.6"/>
-                                <!-- Currency Badge in bottom right -->
-                                <circle cx="68" cy="70" r="11" fill="#10B981" stroke="#0F172A" stroke-width="2.5"/>
-                                <text x="68" y="74" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="11" text-anchor="middle">$</text>
-                            </svg>
+                    <h3 class="text-lg font-bold text-white tracking-tight">The Folio Q (La Q Documental)</h3>
+                    <p class="text-xs text-slate-400">Una hoja de presupuesto estilizada con esquinas redondeadas cuya silueta encierra la letra Q y un sello de aprobación.</p>
+
+                    <!-- Dual Dark / Light Preview -->
+                    <div class="grid grid-cols-2 gap-4 pt-2">
+                        <!-- Dark Squircle -->
+                        <div class="h-36 rounded-2xl bg-[#02050E] border border-slate-800 flex flex-col items-center justify-center p-3 relative">
+                            <div class="w-16 h-16 rounded-[16px] bg-gradient-to-b from-[#0F172A] to-[#040814] border border-slate-700 p-2.5 shadow-lg flex items-center justify-center">
+                                <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                                    <!-- Sheet contour forming Q curve -->
+                                    <path d="M28 24 C28 18 34 16 42 16 H62 C70 16 76 22 76 30 V56 C76 66 68 74 58 74 H42 C32 74 28 66 28 58 V24 Z" stroke="#38BDF8" stroke-width="8"/>
+                                    <!-- Check tail of Q -->
+                                    <path d="M44 48 L56 60 L84 28" stroke="#10B981" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <!-- Internal mini lines -->
+                                    <line x1="40" y1="32" x2="64" y2="32" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+                                </svg>
+                            </div>
+                            <span class="text-[9.5px] font-mono text-slate-500 mt-2">Sobre Fondo Oscuro</span>
+                        </div>
+
+                        <!-- Light Squircle -->
+                        <div class="h-36 rounded-2xl bg-slate-200 border border-slate-300 flex flex-col items-center justify-center p-3 relative">
+                            <div class="w-16 h-16 rounded-[16px] bg-white border border-slate-300 p-2.5 shadow-md flex items-center justify-center">
+                                <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                                    <path d="M28 24 C28 18 34 16 42 16 H62 C70 16 76 22 76 30 V56 C76 66 68 74 58 74 H42 C32 74 28 66 28 58 V24 Z" stroke="#1E40AF" stroke-width="8"/>
+                                    <path d="M44 48 L56 60 L84 28" stroke="#059669" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <line x1="40" y1="32" x2="64" y2="32" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+                            <span class="text-[9.5px] font-mono text-slate-600 mt-2 font-medium">Sobre Fondo Claro</span>
                         </div>
                     </div>
+                </div>
 
-                    <div class="space-y-2">
-                        <h3 class="text-base font-bold text-white tracking-tight">El Libro de Facturación</h3>
-                        <p class="text-xs text-slate-400 leading-relaxed">
-                            Enfoque corporativo fintech (estilo Stripe o QuickBooks). Dos folios superpuestos con el sello de divisa <strong>($)</strong> en verde esmeralda. Transmite seriedad y orden financiero total para contratistas y empresas.
-                        </p>
+                <button onclick="pickAppIcon('2C - The Folio Q')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 hover:text-white transition-all">
+                    Elegir Variación 2C
+                </button>
+            </div>
+
+            <!-- VARIATION 2D: The Solid Monogram Stamp (Estilo CashApp / Vercel) -->
+            <div class="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 space-y-6 flex flex-col justify-between shadow-xl">
+                <div class="space-y-4">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-mono font-bold text-indigo-400 uppercase tracking-widest">Variación 2D</span>
+                        <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">Solid Monogram</span>
+                    </div>
+
+                    <h3 class="text-lg font-bold text-white tracking-tight">The Solid Stamp (La Q Monolítica)</h3>
+                    <p class="text-xs text-slate-400">Minimalismo suizo de líneas macizas continuas con terminaciones planas. Claridad absoluta para ver en tamaño de 24x24 px.</p>
+
+                    <!-- Dual Dark / Light Preview -->
+                    <div class="grid grid-cols-2 gap-4 pt-2">
+                        <!-- Dark Squircle -->
+                        <div class="h-36 rounded-2xl bg-[#02050E] border border-slate-800 flex flex-col items-center justify-center p-3 relative">
+                            <div class="w-16 h-16 rounded-[16px] bg-gradient-to-b from-[#0F172A] to-[#040814] border border-slate-700 p-2.5 shadow-lg flex items-center justify-center">
+                                <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                                    <!-- Thick solid Q ring -->
+                                    <circle cx="48" cy="46" r="26" stroke="#FFFFFF" stroke-width="12"/>
+                                    <!-- Solid geometric slash -->
+                                    <path d="M52 50 L80 78" stroke="#10B981" stroke-width="12" stroke-linecap="round"/>
+                                    <!-- Core dot in center -->
+                                    <circle cx="48" cy="46" r="6" fill="#38BDF8"/>
+                                </svg>
+                            </div>
+                            <span class="text-[9.5px] font-mono text-slate-500 mt-2">Sobre Fondo Oscuro</span>
+                        </div>
+
+                        <!-- Light Squircle -->
+                        <div class="h-36 rounded-2xl bg-slate-200 border border-slate-300 flex flex-col items-center justify-center p-3 relative">
+                            <div class="w-16 h-16 rounded-[16px] bg-white border border-slate-300 p-2.5 shadow-md flex items-center justify-center">
+                                <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                                    <circle cx="48" cy="46" r="26" stroke="#0F172A" stroke-width="12"/>
+                                    <path d="M52 50 L80 78" stroke="#059669" stroke-width="12" stroke-linecap="round"/>
+                                    <circle cx="48" cy="46" r="6" fill="#2563EB"/>
+                                </svg>
+                            </div>
+                            <span class="text-[9.5px] font-mono text-slate-600 mt-2 font-medium">Sobre Fondo Claro</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="pt-4 border-t border-slate-800">
-                    <button onclick="selectIcon('Concepto 03: El Libro de Facturación')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 hover:text-white transition-all">
-                        Elegir Concepto 3
-                    </button>
-                </div>
+                <button onclick="pickAppIcon('2D - The Solid Monogram')" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 hover:text-white transition-all">
+                    Elegir Variación 2D
+                </button>
             </div>
 
         </div>
 
-        <!-- Real World iOS Home Screen Simulation for Concept 2 -->
+        <!-- Interactive Wallpaper Simulator on Mobile -->
         <div class="p-8 sm:p-12 rounded-3xl bg-slate-900/40 border border-slate-800 space-y-8">
-            <div class="space-y-2">
-                <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest font-semibold">Simulación en Dispositivo Real</span>
-                <h3 class="text-2xl font-bold text-white tracking-tight">Cómo se ve el Concepto 2 en la pantalla de inicio de un iPhone</h3>
-                <p class="text-xs sm:text-sm text-slate-400 max-w-xl">
-                    Probado junto a apps cotidianas para comprobar contraste, legibilidad instantánea y presencia visual en el springboard:
-                </p>
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div class="space-y-1">
+                    <span class="text-xs font-mono text-emerald-400 uppercase tracking-widest font-semibold">Simulador de Fondo de Pantalla</span>
+                    <h3 class="text-2xl font-bold text-white tracking-tight">Prueba el ícono 2B en distintos fondos de teléfono</h3>
+                    <p class="text-xs text-slate-400">Haz clic en los botones para cambiar el fondo del teléfono y comprobar cómo se comporta sobre fondos claros:</p>
+                </div>
+
+                <!-- Wallpaper Switcher Buttons -->
+                <div class="flex items-center gap-2 bg-slate-950 p-1.5 rounded-xl border border-slate-800">
+                    <button onclick="setWallpaper('light')" class="px-3 py-1.5 rounded-lg text-xs font-medium bg-white text-slate-900 shadow transition-all flex items-center gap-1.5">
+                        <i data-lucide="sun" class="w-3.5 h-3.5 text-amber-500"></i>
+                        <span>Fondo Claro</span>
+                    </button>
+                    <button onclick="setWallpaper('dark')" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition-all flex items-center gap-1.5">
+                        <i data-lucide="moon" class="w-3.5 h-3.5"></i>
+                        <span>Fondo Oscuro</span>
+                    </button>
+                    <button onclick="setWallpaper('vibrant')" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-400 hover:text-white transition-all flex items-center gap-1.5">
+                        <i data-lucide="palette" class="w-3.5 h-3.5"></i>
+                        <span>Fondo Color</span>
+                    </button>
+                </div>
             </div>
 
-            <!-- iOS Home Screen Mockup Frame -->
-            <div class="max-w-md mx-auto p-6 rounded-[36px] bg-[#0A0D14] border-4 border-slate-800/80 shadow-2xl ios-grid relative overflow-hidden">
+            <!-- Mobile Springboard Mockup -->
+            <div id="phone-screen" class="max-w-md mx-auto p-6 rounded-[36px] border-4 border-slate-800 shadow-2xl wallpaper-light transition-all duration-300 relative overflow-hidden">
                 <!-- Status Bar -->
-                <div class="flex items-center justify-between text-[11px] font-semibold text-slate-400 px-2 pb-6">
+                <div class="flex items-center justify-between text-[11px] font-semibold text-slate-800 px-2 pb-6" id="status-bar">
                     <span>9:41</span>
                     <div class="flex items-center gap-1.5">
                         <i data-lucide="wifi" class="w-3.5 h-3.5"></i>
@@ -234,46 +286,44 @@
                     </div>
                 </div>
 
-                <!-- Icons Grid -->
+                <!-- Grid -->
                 <div class="grid grid-cols-4 gap-4 text-center">
-                    <!-- Standard App: Photos -->
                     <div class="space-y-1.5 flex flex-col items-center">
-                        <div class="w-14 h-14 rounded-2xl bg-white flex items-center justify-center shadow-md">
+                        <div class="w-14 h-14 rounded-2xl bg-white shadow-md flex items-center justify-center border border-slate-200">
                             <div class="w-7 h-7 rounded-full bg-gradient-to-tr from-rose-500 via-amber-400 to-indigo-500"></div>
                         </div>
-                        <span class="text-[10px] text-slate-300 font-medium">Fotos</span>
+                        <span class="text-[10px] text-slate-700 font-medium" id="label-photos">Fotos</span>
                     </div>
 
-                    <!-- Standard App: Notes -->
                     <div class="space-y-1.5 flex flex-col items-center">
-                        <div class="w-14 h-14 rounded-2xl bg-amber-100 flex items-center justify-center shadow-md border-t-4 border-amber-400">
+                        <div class="w-14 h-14 rounded-2xl bg-amber-100 shadow-md flex items-center justify-center border-t-4 border-amber-400">
                             <i data-lucide="file-text" class="w-6 h-6 text-slate-700"></i>
                         </div>
-                        <span class="text-[10px] text-slate-300 font-medium">Notas</span>
+                        <span class="text-[10px] text-slate-700 font-medium" id="label-notes">Notas</span>
                     </div>
 
-                    <!-- HERO APP: QUOTEFAST -->
+                    <!-- HERO ICON: QUOTEFAST (VARIATION 2B) -->
                     <div class="space-y-1.5 flex flex-col items-center scale-105">
-                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-b from-[#0F172A] to-[#040814] border border-slate-700 p-2.5 shadow-xl shadow-emerald-500/25 flex items-center justify-center relative">
+                        <div class="w-14 h-14 rounded-2xl bg-[#0A0E1A] border border-slate-700 p-2 shadow-xl shadow-emerald-500/20 flex items-center justify-center">
                             <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
-                                <circle cx="48" cy="46" r="28" stroke="#38BDF8" stroke-width="10"/>
-                                <path d="M42 48 L52 58 L78 28" stroke="#10B981" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M72 32 A 30 30 0 1 0 54 78" stroke="#38BDF8" stroke-width="11" stroke-linecap="round"/>
+                                <path d="M40 52 L54 66 L86 26" stroke="#10B981" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="86" cy="26" r="3.5" fill="#A7F3D0"/>
                             </svg>
                         </div>
-                        <span class="text-[10px] text-emerald-400 font-bold tracking-tight">QuoteFast</span>
+                        <span class="text-[10px] text-emerald-600 font-bold tracking-tight">QuoteFast</span>
                     </div>
 
-                    <!-- Standard App: Settings -->
                     <div class="space-y-1.5 flex flex-col items-center">
-                        <div class="w-14 h-14 rounded-2xl bg-slate-700 flex items-center justify-center shadow-md">
+                        <div class="w-14 h-14 rounded-2xl bg-slate-700 shadow-md flex items-center justify-center">
                             <i data-lucide="settings" class="w-6 h-6 text-slate-300"></i>
                         </div>
-                        <span class="text-[10px] text-slate-300 font-medium">Ajustes</span>
+                        <span class="text-[10px] text-slate-700 font-medium" id="label-settings">Ajustes</span>
                     </div>
                 </div>
 
-                <!-- Dock Simulator -->
-                <div class="mt-12 p-3 rounded-[26px] bg-slate-800/40 backdrop-blur-md border border-slate-700/40 grid grid-cols-4 gap-2">
+                <!-- Dock -->
+                <div class="mt-12 p-3 rounded-[26px] bg-white/60 backdrop-blur-md border border-slate-300/50 grid grid-cols-4 gap-2">
                     <div class="w-12 h-12 rounded-xl bg-green-500 mx-auto flex items-center justify-center text-white"><i data-lucide="phone" class="w-5 h-5"></i></div>
                     <div class="w-12 h-12 rounded-xl bg-blue-500 mx-auto flex items-center justify-center text-white"><i data-lucide="compass" class="w-5 h-5"></i></div>
                     <div class="w-12 h-12 rounded-xl bg-blue-600 mx-auto flex items-center justify-center text-white"><i data-lucide="mail" class="w-5 h-5"></i></div>
@@ -282,42 +332,43 @@
             </div>
         </div>
 
-        <!-- App Store Listing Mockup -->
-        <div class="p-8 sm:p-10 rounded-3xl bg-slate-900/40 border border-slate-800 space-y-6">
-            <span class="text-xs font-mono text-blue-400 uppercase tracking-widest font-semibold">Ficha en Tienda (App Store)</span>
-            
-            <div class="p-6 rounded-2xl bg-[#030611] border border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-6">
-                <div class="flex items-center gap-5">
-                    <div class="w-20 h-20 rounded-[20px] bg-gradient-to-b from-[#0F172A] to-[#040814] border border-slate-700 p-3.5 shadow-xl shrink-0 flex items-center justify-center">
-                        <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
-                            <circle cx="48" cy="46" r="28" stroke="#38BDF8" stroke-width="10"/>
-                            <path d="M42 48 L52 58 L78 28" stroke="#10B981" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                    <div class="space-y-1">
-                        <h4 class="text-lg font-bold text-white tracking-tight">QuoteFast: Presupuestos y PDF</h4>
-                        <p class="text-xs text-slate-400 font-mono">Vertix Labs LLC • Negocios & Productividad</p>
-                        <div class="flex items-center gap-2 pt-1">
-                            <div class="flex text-amber-400 text-xs">★★★★★</div>
-                            <span class="text-[11px] text-slate-400 font-semibold">4.9 • 1.2K Reseñas</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex items-center gap-3 w-full sm:w-auto">
-                    <button class="w-full sm:w-auto px-6 py-2.5 rounded-full bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs uppercase tracking-wider transition-all">
-                        OBTENER
-                    </button>
-                </div>
-            </div>
-        </div>
-
     </div>
 
     <script>
         lucide.createIcons();
-        function selectIcon(name) {
-            alert('Has seleccionado: ' + name + '. ¡Dímelo en el chat y lo adaptamos de inmediato a todos los tamaños de Android, iOS y Expo!');
+
+        function setWallpaper(type) {
+            const screen = document.getElementById('phone-screen');
+            const status = document.getElementById('status-bar');
+            const lPhotos = document.getElementById('label-photos');
+            const lNotes = document.getElementById('label-notes');
+            const lSettings = document.getElementById('label-settings');
+
+            screen.classList.remove('wallpaper-light', 'wallpaper-dark', 'wallpaper-vibrant');
+            
+            if (type === 'light') {
+                screen.classList.add('wallpaper-light');
+                status.className = 'flex items-center justify-between text-[11px] font-semibold text-slate-800 px-2 pb-6';
+                lPhotos.className = 'text-[10px] text-slate-700 font-medium';
+                lNotes.className = 'text-[10px] text-slate-700 font-medium';
+                lSettings.className = 'text-[10px] text-slate-700 font-medium';
+            } else if (type === 'dark') {
+                screen.classList.add('wallpaper-dark');
+                status.className = 'flex items-center justify-between text-[11px] font-semibold text-slate-300 px-2 pb-6';
+                lPhotos.className = 'text-[10px] text-slate-300 font-medium';
+                lNotes.className = 'text-[10px] text-slate-300 font-medium';
+                lSettings.className = 'text-[10px] text-slate-300 font-medium';
+            } else {
+                screen.classList.add('wallpaper-vibrant');
+                status.className = 'flex items-center justify-between text-[11px] font-semibold text-white px-2 pb-6';
+                lPhotos.className = 'text-[10px] text-white font-medium';
+                lNotes.className = 'text-[10px] text-white font-medium';
+                lSettings.className = 'text-[10px] text-white font-medium';
+            }
+        }
+
+        function pickAppIcon(name) {
+            alert('Has seleccionado la ' + name + '. ¡Dímelo en el chat y la convertimos en los assets oficiales de la app!');
         }
     </script>
 </body>
